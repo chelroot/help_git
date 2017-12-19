@@ -1,4 +1,6 @@
 ssh-keygen -t ecdsa -f .ssh/ghub   создаем ключ
 cat .ssh/ghub.pub  получаем сам ключ, который вставляем на сайт https://github.com/settings/keys
+eval "$(ssh-agent)"
+aa
 ssh-add .ssh/ghub.pub  добавляем ключ у себя
 git clone git@github.com:chelroot/help_git.git  скачиваем на локальный
