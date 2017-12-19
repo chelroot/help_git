@@ -1,3 +1,7 @@
+mcedit comand    создаем файл
+git add comand   добавляем файо 
+git commit -a    записываем что делали
+git push         заталкиваем на сайт
 
 git push origin # отправляю все сделанные мною изменения на ев сайт
 
