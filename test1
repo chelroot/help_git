@@ -1,0 +1,74 @@
+cd proj/
+ls
+git init 
+l
+git status 
+cal >claendar.txt
+vim claendar.txt 
+mcedit claendar.txt 
+git status 
+git add
+git add claendar.txt
+git status 
+date>date.txt
+git status 
+git add date.txt
+git status 
+touch tmp
+git status 
+history 
+
+
+ssh-keygen -t ecdsa -f .ssh/ghub
+ 1447  ls .ssh/
+ 1448  cat .ssh/ghub.pub 
+ 1449  ssh-add -l
+ 1450  ssh-add .ssh/ghub
+ 1451  cd .ssh/
+ 1452  ls
+ 1453  ssh-add ghub.pub 
+ 1454  mc
+ 1455  git clone git@github.com:chelroot/help_git.git
+ 1456  ls
+ 1457  mc
+ 1458  git clone git@github.com:chelroot/help_git.git
+ 1459  git clone git@github.com:chelroot/help_git.git
+ 1460  git clone git@github.com:chelroot/help_git.git
+ 1461  mc
+ 1462* ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCJ1lPAAcNPUipzeNTRMgPz2150886vIslZpa63/gmzBr31cM/fgSIHJkgC5ffpBifU0z67OgzHeKN6OKEpRqss= vova@dom2.is74.ru
+ 1463  git clone git@github.com:chelroot/help_git.git
+ 1464  ls
+ 1465  mc
+ 1466  git clone git@github.com:chelroot/help_git.git
+ 1467  cd help_git/
+ 1468  mc
+ 1469  git status 
+ 1470  git push 
+ 1471  git add
+ 1472  git add README.md
+ 1473  git push 
+ 1474  git status 
+ 1475  mc
+ 1476  git status 
+ 1477  git push 
+ 1478  git push 
+ 1479  mc
+ 1480  git status 
+ 1481  git add README.md
+ 1482  git status 
+ 1483  git push 
+ 1484  git commit -a
+ 1485  git status 
+ 1486  git push 
+ 1487  git status 
+
+ 
+ 
+ git commit -a
+ 1436  git commit
+ 1437  vim date.txt 
+ 1438  git status 
+ 1439  git commit -a
+ 1440  git log
+ 1441  history 
+
