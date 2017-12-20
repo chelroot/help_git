@@ -12,3 +12,11 @@ ssh-add ~/.ssh/id_rsa
 eval "$(ssh-agent -s)"
 cat .ssh/id_rsa.pub
 git clone git@github.com:chelroot/help_git.git
+
+pi@raspberrypi:~ $ eval "$(ssh-agent -s)"
+Agent pid 1028
+pi@raspberrypi:~ $ ssh-add ~/.ssh/id_rsa
+Identity added: /home/pi/.ssh/id_rsa (/home/pi/.ssh/id_rsa)
+pi@raspberrypi:~ $ git clone git@github.com:chelroot/i2c_SPI_rs485.git
+
+
